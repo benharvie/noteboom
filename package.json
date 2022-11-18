@@ -1,7 +1,9 @@
 {
   "name": "noteboom",
   "version": "1.0.0",
-  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
