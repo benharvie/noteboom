@@ -64,8 +64,5 @@ export default {
       }/${this.$route.params.secret_key}`,
     }
   },
-  mounted() {
-    console.log(window)
-  },
 }
 </script>

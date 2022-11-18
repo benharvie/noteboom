@@ -34,5 +34,8 @@ export default {
       note: null,
     }
   },
+  mounted() {
+    console.log('process.env.BASE_URL:', process.env.BASE_URL)
+  },
 }
 </script>
