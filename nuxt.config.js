@@ -1,4 +1,9 @@
 export default {
+  // Variables
+  env: {
+    BASE_URL: process.env.BASE_URL || 'http://localhost:3000',
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'noteboom',
