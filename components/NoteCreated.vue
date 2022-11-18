@@ -68,7 +68,9 @@ export default {
   },
   data() {
     return {
-      read_url: `http://localhost:3000/${this.note.public_key}/${this.note.secret_key}`,
+      read_url: `${process.env.BASE_URL || 'http://localhost:3000'}/${
+        this.note.public_key
+      }/${this.note.secret_key}`,
       copied: null,
     }
   },

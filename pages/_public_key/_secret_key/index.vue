@@ -59,12 +59,13 @@ export default {
     return {
       public_key: this.$route.params.public_key,
       secret_key: this.$route.params.secret_key,
-      read_url: `http://localhost:3000/${this.$route.params.public_key}/${this.$route.params.secret_key}/read`,
+      read_url: `${process.env.BASE_URL || 'http://localhost:3000'}/${
+        this.$route.params.public_key
+      }/${this.$route.params.secret_key}`,
     }
   },
   mounted() {
-    // TODO: validate id exists
-    console.log(this.$route)
+    console.log(window)
   },
 }
 </script>
