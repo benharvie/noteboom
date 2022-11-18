@@ -4,7 +4,7 @@
       <p class="font-bold w-full">Link ready</p>
       <input
         ref="url"
-        :value="read_url"
+        :value="pre_read_url"
         readonly
         class="
           w-full
@@ -68,7 +68,7 @@ export default {
   },
   data() {
     return {
-      read_url: `${process.env.BASE_URL || 'http://localhost:3000'}/${
+      pre_read_url: `${process.env.BASE_URL || 'http://localhost:3000'}/${
         this.note.public_key
       }/${this.note.secret_key}`,
       copied: null,

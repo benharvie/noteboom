@@ -61,7 +61,7 @@ export default {
       secret_key: this.$route.params.secret_key,
       read_url: `${process.env.BASE_URL || 'http://localhost:3000'}/${
         this.$route.params.public_key
-      }/${this.$route.params.secret_key}`,
+      }/${this.$route.params.secret_key}/read`,
     }
   },
 }
