@@ -8,7 +8,9 @@ app.use(express.json())
 app.use(body_parser.urlencoded({ extended: false }))
 
 const { MongoClient } = mongodb
-MongoClient.connect('mongodb://localhost:27017').then((client) => {
+MongoClient.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost:27017'
+).then((client) => {
   const db = client.db('noteboom')
   app.use(api(db))
 })
