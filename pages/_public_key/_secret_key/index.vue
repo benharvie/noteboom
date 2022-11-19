@@ -14,7 +14,8 @@
       <div class="text-lg">
         <p class="font-bold">Read and destroy?</p>
         <p>
-          You're about to read and destroy the note with id {{ public_key }}.
+          You're about to decrypt, read and destroy the note with id
+          {{ public_key }}.
         </p>
       </div>
       <div class="flex flex-wrap mt-3">
