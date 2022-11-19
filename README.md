@@ -1,4 +1,8 @@
-# noteboom
+# 💥 noteboom
+
+Share a confidential note via a web link that will self-destruct after it is read by your intended recipient.
+
+Live demo: https://noteboom.herokuapp.com/
 
 ## Build Setup
 
