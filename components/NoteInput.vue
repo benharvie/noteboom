@@ -8,7 +8,16 @@
       v-model="note"
       class="w-full h-48 border-2 rounded-md px-1"
     ></textarea>
-    <p class="text-sm text-gray-500">All notes are 256-bit AES encrypted.</p>
+    <p class="text-sm text-gray-500">
+      All notes are
+      <a
+        href="https://github.com/benharvie/noteboom/blob/main/api/api.js#L13-L20"
+        target="_blank"
+        class="text-blue-400 hover:border-b"
+      >
+        256-bit AES encrypted</a
+      >.
+    </p>
     <button
       class="
         rounded

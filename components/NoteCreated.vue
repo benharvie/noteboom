@@ -18,7 +18,15 @@
         @focus="$event.target.select()"
       />
       <p class="text-sm text-gray-500">
-        The note will self-destruct after reading it.
+        The note will
+        <a
+          href="https://github.com/benharvie/noteboom/blob/main/api/api.js#L46"
+          target="_blank"
+          class="text-blue-400 hover:border-b"
+        >
+          self-destruct</a
+        >
+        after reading it.
       </p>
       <div class="flex flex-wrap mt-7 w-full mx-auto">
         <button
