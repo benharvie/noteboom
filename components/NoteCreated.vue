@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="note.status" class="flex flex-wrap w-full">
-      <p class="font-bold w-full">Link ready</p>
+      <p class="font-bold w-full">Note link ready</p>
       <input
         ref="url"
         :value="pre_read_url"
