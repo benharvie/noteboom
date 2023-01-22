@@ -1,6 +1,6 @@
 # 💥 noteboom
 
-Share a confidential note via a web link that will self-destruct after it is read by your intended recipient. All notes are encrypted with AES-256 encryption.
+Share a confidential note via a web link that will self-destruct after it is read by your intended recipien, all notes are AES-256 encrypted before permanent destruction.
 
 ## Build Setup
 
