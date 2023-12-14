@@ -1,1 +1,1 @@
-For security issues, contact me at: ben@protectai.com
+For security issues, contact me at: 
