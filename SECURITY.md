@@ -1,1 +1,1 @@
-contact me: ben@protectai.com
+contact me: `ben@protectai.com`
